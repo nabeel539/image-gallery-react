@@ -7,7 +7,7 @@ const ImageCard = ({image}) => {
   return (
     <>
       {/* <div className='bg-slate-800 p-4 text-white text-center text-2xl bold'>Image Gallery</div> */}
-      <div className="max-w-md w-[380px] rounded-md overflow-hidden shadow-lg mx-auto md:w-[330px] lg:max-w-[350px] xl:max-w-[300px] 2xl:max-w-[340px] cursor-pointer">
+      <div className="max-w-xs rounded-md overflow-hidden shadow-lg mx-auto md:w-[330px] lg:max-w-[350px] xl:max-w-[300px] 2xl:max-w-[340px] cursor-pointer ">
         <img 
           className="h-96 w-full object-cover"
           src={image.webformatURL}
